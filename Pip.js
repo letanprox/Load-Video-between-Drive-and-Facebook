@@ -11,8 +11,8 @@ let timepk = 0;
 
 let code = 6;
 let namevideo = 'boruto_tap_';
-let xmax = 1;
-let xmin = 50;
+let xmin = 1;
+let xmax = 50;
 
 let pagefb = '102415588672684';
 let tokenfb = 'EAAKTA9ealX8BAAOxz73lLRiNUQEyZBZCADh8egq1Me44HRXZCgOCIm92FoKRnHZADFZAnT7ybpoVjdfYzbJDcWxtO1wY81opmghK6MevF1r2U9a3c31QqrJzZCLZAILc3cZA1mdjxqi4vgCixicCm4FR45ZCiKZBVIgGTQPuUwAnianCQRp9urxKRnp0yVIPVFKqcZD';

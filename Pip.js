@@ -55,9 +55,10 @@ async function loadurl(url,id,name){
     let pkx = 0;
     const request = https.get(data_array.source, function(response) {
         response.pipe(file);
+        console.log('load number data '+name)
         response.on('data',(da)=>{
             pkx = pkx + 1;
-            console.log('load number data '+name+' : ')
+            
             // process.stdout.clearLine();
             // process.stdout.cursorTo(0);
             // process.stdout.write('load number data '+name+' : ' + pkx)

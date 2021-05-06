@@ -1,6 +1,7 @@
 const http      = require('http'),
       https     = require('https');
 const path = require("path");
+const readline = require('readline');
 const fs = require("fs");
 let fetch = require("node-fetch");
 const { exec } = require("child_process");
@@ -56,12 +57,13 @@ async function loadurl(url,id,name){
         response.pipe(file);
         response.on('data',(da)=>{
             pkx = pkx + 1;
-            process.stdout.clearLine();
-            process.stdout.cursorTo(0);
-            process.stdout.write('load number data '+name+' : ' + pkx)
+            console.log('load number data '+name+' : ')
+            // process.stdout.clearLine();
+            // process.stdout.cursorTo(0);
+            // process.stdout.write('load number data '+name+' : ' + pkx)
         })  
         response.on('end',async ()=>{
-            process.stdout.write("\n");
+            // process.stdout.write("\n");
             console.log('Done!');
 
             let xdrive = (await createDrive(xcode)).drive;

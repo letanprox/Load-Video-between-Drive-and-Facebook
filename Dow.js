@@ -30,6 +30,7 @@ function getLink(id_page,token) {
                 let json_ray = data_array.data;
                 json_ray.forEach(element => {
                     // console.log(Number(element.description))
+
                     if(Number(String(element.description).replace(namevideo,'').replace('.mp4','')) >= start && Number(String(element.description).replace(namevideo,'').replace('.mp4','')) <= end)
                     if (!fs.existsSync(String('Save/'+element.description))) {
                     if(k == 1){

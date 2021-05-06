@@ -11,8 +11,8 @@ let timepk = 0;
 
 let code = 9;
 let namevideo = 'blackclover_tap_';
-let xmin = 0;
-let xmax = 50;
+let xmin = 51;
+let xmax = 80;
 let preventArr = [];
 let passArr = [];
 let idArr = [];
@@ -23,7 +23,6 @@ let tokenfb = 'EAApj1qd5BwYBAPtLSiHdJEZAURjZB3vXbB5MKo0R6YFDYSZASuJpK9XgnCMnMjf4
 let xcode = 22;
 
 let k = 1;
-
 MongoClient.connect(urli , { useUnifiedTopology: true } ,async function(err, db) {
     if (err) throw err;
     var dbo = await db.db("aidb");

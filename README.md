@@ -5,3 +5,7 @@ Và mục địch của Project này chính là thực hiện việc trên. Mìn
 Ngôn ngữ: Nodejs + PHP.
 
 Đa phần của project là các file chạy ngầm, nên code mình viết thô nhất có thể!!!
+
+Nguồn tham khảo: 
+- Dùng CURL PHP stream thẳng từ drive qua facebook:
+https://developers.facebook.com/docs/video-api/guides/get-videos/

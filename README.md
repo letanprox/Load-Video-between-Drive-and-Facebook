@@ -2,5 +2,5 @@ Mọi người cũng biết rồi đó, lưu video trên google drive sẽ rất
 
 Và mục địch của Project này chính là thực hiện việc trên. Mình sẽ thiết kế code pull video từ drive qua Facebook, rồi đợi một khoản thời gian nhất định pull về lại drive.
 
-Ngôn ngữ: Nodejs + PHP
+Ngôn ngữ: Nodejs + PHP.
 Đa phần của project là các file chạy ngầm, nên code mình viết thô nhất có thể!!!
